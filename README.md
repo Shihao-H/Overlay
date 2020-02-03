@@ -14,7 +14,7 @@ $ cd bin
 ```
 
 ```sh
-$ java cs455.scaling.server.Server portnum thread-pool-size batch-size batch-time
+$ java cs455.overlay.node.Registry portnum
 ```
 
 The launch another terminal and cd into the bin folder.
@@ -23,10 +23,10 @@ The launch another terminal and cd into the bin folder.
 $ cd bin
 ```
 
-Make sure you place the ***runClient.sh*** and ***machine_list*** file inside the bin folder as well. the script will look for it.  machine_list has 20 machines and specify the argument to 5 can launch 100 clients.
+Make sure you place the ***runClient.sh*** and ***machine_list*** file inside the bin folder as well. the script will look for it.  machine_list has 10 machines and specify the argument to 1 can launch 20 machines.
 
 ```sh
-$ runClient.sh 5
+$ runClient.sh 1
 ```
 
 * Clean the .class file in bin folder
